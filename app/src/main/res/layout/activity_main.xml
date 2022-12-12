@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/sb_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/share_link"
+        android:clickable="true"
+        android:visibility="gone"
+        android:background="@color/com_facebook_blue"
+        app:layout_constraintBottom_toTopOf="@+id/sb_post"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:focusable="true" />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/sb_post"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:layout_marginBottom="10dp"
+        android:text="@string/share_post"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/sb_story"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"  />
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/sb_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:layout_marginBottom="10dp"
+        android:text="@string/share_stories"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/sb_video_story"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"  />
+
+    <com.facebook.share.widget.ShareButton
+        android:id="@+id/sb_video_story"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/com_facebook_blue"
+        android:layout_marginBottom="10dp"
+        android:text="@string/share_video_stories"
+        android:visibility="gone"
+        app:layout_constraintBottom_toTopOf="@+id/lb_login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"  />
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/lb_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/pick_image_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:src="@drawable/ic_add"
+        android:onClick="pickImage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!--Insta-->
+    <Button
+        android:id="@+id/sb_insta_feed"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/insta_color"
+        android:text="@string/share_feed"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/sb_link" />
+
+    <Button
+        android:id="@+id/sb_insta_story"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:background="@color/insta_color"
+        android:text="@string/share_stories"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sb_post" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

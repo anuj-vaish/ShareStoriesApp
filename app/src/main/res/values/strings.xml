@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">ShareStoriesApp</string>
+    <string name="facebook_app_id">702647424223529</string>
+    <string name="facebook_client_token">fe9ea8abd00204ec69aefa3b71c0050c</string>
+    <string name="fb_login_protocol_scheme">fb702647424223529</string>
+    <string name="facebook_application_id">702647424223529</string>
+    <string name="share_link">Share Link Post</string>
+    <string name="share_button">Share Button</string>
+    <string name="hash_tag_share">#Share</string>
+    <string name="share_post">Share Post</string>
+    <string name="share_stories">Share Story</string>
+    <string name="share_video_stories">Video Story</string>
+    <string name="share_feed">Share Feed</string>
+    <string name="default_notification_channel_id">default</string>
+</resources>

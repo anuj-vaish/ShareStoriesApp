@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "787924878962",
+    "project_id": "com-hindsolution-sstoriesapp",
+    "storage_bucket": "com-hindsolution-sstoriesapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787924878962:android:0f07e01ce1f0c7da56e4eb",
+        "android_client_info": {
+          "package_name": "com.hindsolution.sharestoriesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787924878962-j0tob2j59fepkagp3a2pla6g2kpblui2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrQFDICsPaQUBw4mk6lY7WZz5QaN6KAis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787924878962-j0tob2j59fepkagp3a2pla6g2kpblui2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:787924878962:android:0a4dbbeddf8dc45256e4eb",
+        "android_client_info": {
+          "package_name": "com.hindsolution.sstoriesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "787924878962-ds1ftubvqt5kona3femrae392545otbc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hindsolution.sstoriesapp",
+            "certificate_hash": "6c65134fb06672a2c7a921cc1254ce43a9b7238e"
+          }
+        },
+        {
+          "client_id": "787924878962-j0tob2j59fepkagp3a2pla6g2kpblui2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrQFDICsPaQUBw4mk6lY7WZz5QaN6KAis"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "787924878962-j0tob2j59fepkagp3a2pla6g2kpblui2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
